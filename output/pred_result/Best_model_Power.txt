@@ -1,0 +1,4 @@
+精度(accuracy): 	 0.82237
+查准率(precision): 	 0.83658
+召回率(recall): 	 0.82071
+F1 Score: 		 0.82158

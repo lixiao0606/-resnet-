@@ -2,4 +2,5 @@
 dataset/
 datasetEnhance/
 *.pth
+*.png
 

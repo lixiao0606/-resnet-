@@ -18,9 +18,9 @@ val_k : 5
 
 
 #train information
-batch_size: 256
+batch_size: 16
 myNet : resnet18   # you can change this to 'resnet50' or ‘resnet18’ to test each model
-epochs : 5
+epochs : 2
 loss_ : 10
 # 每次训练前自定义一个不会重复的标识
 mark : '_justfortest1'
