@@ -46,7 +46,7 @@ if __name__ == '__main__':
     pathTestset = os.path.join("datasetGroup", "testGroup.txt")
     print(f"Now test the model by Images: testGroup.txt")
     testData = LoadData(pathTestset, False)
-    test_dataloader = DataLoader(dataset=testData, num_workers=4, pin_memory=True, batch_size=batch_size)
+    test_dataloader = DataLoader(dataset=testData, num_workers=2, pin_memory=True, batch_size=batch_size)
 
     # 如果显卡可用，则用显卡进行测试
     device = "cuda" if torch.cuda.is_available() else "cpu"
